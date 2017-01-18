@@ -1,0 +1,334 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Movie Schecduling">
+		<meta name="keywords" content="Cinema, Movie, Film, Schedule">
+		<meta name="author" content="Nikko Atuan">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+
+
+		<title>Movie Schedule</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/team-owl-responsive.css">
+	</head>
+	<body>
+		<header class="row row-header">
+            <div class="row opacity">
+                <button class="burger burger-highlight" id="burger"  onclick="showNavBarMini()">&#9776;</button>
+                <div class="header-menu">
+                    <ul class="row">
+                        <a href=""><li>Accessbility</li></a>
+                        <a href=""><li>Careers</li></a>
+                        <a href=""><li>Media Centre</li></a>
+                        <a href=""><li>FAQs</li></a>
+                        <a href=""><li>Venue Hire</li></a>
+                        <a href=""><li>Contact Us</li></a>
+                    </ul>
+                </div>
+                <a href=""><img src="images/logo.png"></a>
+                <div class="nav-menu">
+                    <a class="col col-lg-2 col-md-2 col-sm-2 col-es-2 col-ss-2" href="">Home</a>
+                    <a class="col col-lg-2 col-md-2 col-sm-2 col-es-2 col-ss-2" href="">Book Now</a>
+                    <a class="col col-lg-2 col-md-2 col-sm-2 col-es-2 col-ss-2" href="">Films</a>
+                    <a class="col col-lg-2 col-md-2 col-sm-2 col-es-2 col-ss-2" href="">Cinemas</a>
+                    <a class="col col-lg-2 col-md-2 col-sm-2 col-es-2 col-ss-2" href="">Offers</a>
+                    <a class="col col-lg-2 col-md-2 col-sm-2 col-es-2 col-ss-2" href="">Fun Stuff</a>
+                </div>
+                <div class="nav-bar-mini row">
+                    <a><div class="col col-lg-12 col-md-12 col-sm-12 col-es-12 col-ss-12">Home</div></a>
+                    <a><div class="col col-lg-12 col-md-12 col-sm-12 col-es-12 col-ss-12">Book Now</div></a>
+                    <a><div class="col col-lg-12 col-md-12 col-sm-12 col-es-12 col-ss-12">Films</div></a>
+                    <a><div class="col col-lg-12 col-md-12 col-sm-12 col-es-12 col-ss-12">Cinemas</div></a>
+                    <a><div class="col col-lg-12 col-md-12 col-sm-12 col-es-12 col-ss-12">Offers</div></a>
+                    <a><div class="col col-lg-12 col-md-12 col-sm-12 col-es-12 col-ss-12">Fun Stuff</div></a>
+                    <a><div class="col col-lg-12 col-md-12 col-sm-12 col-es-12 col-ss-12">Accessbility</div></a>
+                    <a><div class="col col-lg-12 col-md-12 col-sm-12 col-es-12 col-ss-12">Careers</div></a>
+                    <a><div class="col col-lg-12 col-md-12 col-sm-12 col-es-12 col-ss-12">Media Centre</div></a>
+                    <a><div class="col col-lg-12 col-md-12 col-sm-12 col-es-12 col-ss-12">FAQs</div></a>
+                    <a><div class="col col-lg-12 col-md-12 col-sm-12 col-es-12 col-ss-12">Venue Hire</div></a>
+                    <a><div class="col col-lg-12 col-md-12 col-sm-12 col-es-12 col-ss-12">Contact Us</div></a>
+                </div>
+            </div>
+			
+		</header>
+
+		<section class="row content">
+			<article class="row article-1">
+				<div class="col col-9 col-lg-9 col-md-9 col-sm-9 col-es-12 col-ss-12">
+					<div id="slider-frame" class="row carousel">
+                        <div id="slider">
+                        </div>
+					</div>
+					<div class="row row-btn">
+						<ul class="row">
+							<li><button id="btn1" class="slider-btn" onclick="changeSlide(1)"></button></li>
+							<li><button id="btn2" class="slider-btn" onclick="changeSlide(2)"></button></li>
+							<li><button id="btn3" class="slider-btn" onclick="changeSlide(3)"></button></li>
+							<li><button id="btn4" class="slider-btn" onclick="changeSlide(4)"></button></li>
+							<li><button id="btn5" class="slider-btn" onclick="changeSlide(5)"></button></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col col-book-now col-lg-3 col-md-3 col-sm-3 col-es-12 col-ss-12">
+                    <div class="form row">
+                        <div class="row row-block-title">
+                            <h2>Book Now</h2>
+                        </div>
+                        <div class="row">
+                            <select>
+                                <option disabled selected>- Select Cinema -</option>
+                                <option>Cinema 1</option>
+                                <option>Cinema 2</option>
+                                <option>Cinema 3</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <select>
+                                <option disabled selected>- Select Film -</option>
+                                <option>Film 1</option>
+                                <option>Film 2</option>
+                                <option>Film 3</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <input type="date">
+                        </div>
+                        <div class="row">
+                            <select disabled selected>
+                                <option>- Select Time -</option>
+                                <option>1:00pm - 2:30pm</option>
+                                <option>2:30pm - 4:00pm</option>
+                                <option>4:00pm - 6:00pm</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <button>Book Now!</button>
+                        </div>
+                    </div>
+					
+				</div>
+			</article>
+			<article class="row article-2">
+				<div id="film-reviews" class="col col-article-2 col-lg-6 col-md-6 col-sm-6 col-es-12 col-ss-12">
+                    <div class="form row">
+                        <div class="row row-block-title">
+                            <h2>Film Reviews</h2>
+                        </div>
+                        <div class="row row-btn">
+                            <button id="btn-now-showing" class="col col-lg-6 col-md-6 col-sm-6 col-es-6 col-ss-6" onclick="showNowShowing()">Now Showing</button>
+                            <button id="btn-coming-soon" class="col col-lg-6 col-md-6 col-sm-6 col-es-6 col-ss-6" onclick="showComingSoon()">Coming Soon</button>
+                        </div>
+                        <div id="now-showing" class="row now-showing">
+                            <div class="row row-films">
+                                <div class="row film">
+                                    <div class="col col-5 col-lg-5 col-md-5 col-sm-5 col-es-5 col-ss-5">
+                                        <div class="row">
+                                            <img class="row" src="images/image3.jpg">
+                                        </div>
+                                        <div class="row row-btn">
+                                            <button>Find Cinema</button>
+                                            <button>Book Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="col col-7 col-lg-7 col-md-7 col-sm-7 col-es-7 col-ss-7">
+                                        <div class="row row-1">
+                                            <h3>Rogue One (Star Wars Story)</h3>
+                                            <p>A long time ago in a galaxy far far away...</p>
+                                        </div>
+                                        <div class="row row-2">
+                                            <div class="row rating">
+                                                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                            </div>
+                                            <a href=""><p>More...</p></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="row film">
+                                    <div class="col col-5 col-lg-5 col-md-5 col-sm-5 col-es-5 col-ss-5">
+                                        <div class="row">
+                                            <img class="row" src="images/image2.jpg">
+                                        </div>
+                                        <div class="row row-btn">
+                                            <button>Find Cinema</button>
+                                            <button>Book Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="col col-7 col-lg-7 col-md-7 col-sm-7 col-es-7 col-ss-7">
+                                        <div class="row row-1">
+                                            <h3>The book of love</h3>
+                                            <p>La la la la la la la la la la la la la la la la</p>
+                                        </div>
+                                        <div class="row row-2">
+                                            <div class="row rating">
+                                                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                            </div>
+                                            <a href=""><p>More...</p></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="row film">
+                                    <div class="col col-5 col-lg-5 col-md-5 col-sm-5 col-es-5 col-ss-5">
+                                        <div class="row">
+                                            <img class="row" src="images/image1.jpg">
+                                        </div>
+                                        <div class="row row-btn">
+                                            <button>Find Cinema</button>
+                                            <button>Book Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="col col-7 col-lg-7 col-md-7 col-sm-7 col-es-7 col-ss-7">
+                                        <div class="row row-1">
+                                            <h3>Assassin's Creed</h3>
+                                            <p>Lorem Ipsum Dolor et al abc def ghif</p>
+                                        </div>
+                                        <div class="row row-2">
+                                            <div class="row rating">
+                                                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                            </div>
+                                            <a href=""><p>More...</p></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="coming-soon" class="row coming-soon">
+                            <div class="row row-films">
+                                <div class="row film">
+                                    <div class="col col-5 col-lg-5 col-md-5 col-sm-5 col-es-5 col-ss-5">
+                                        <div class="row">
+                                            <img class="row" src="images/image4.png">
+                                        </div>
+                                        <div class="row row-btn">
+                                            <button>Find Cinema</button>
+                                            <button>Book Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="col col-7 col-lg-7 col-md-7 col-sm-7 col-es-7 col-ss-7">
+                                        <div class="row row-1">
+                                            <h3>Spiderman Homecoming</h3>
+                                            <p>Peter Parker is back with blah blah blah</p>
+                                        </div>
+                                        <div class="row row-2">
+                                            <a href=""><p>More...</p></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row film">
+                                    <div class="col col-5 col-lg-5 col-md-5 col-sm-5 col-es-5 col-ss-5">
+                                        <div class="row">
+                                            <img class="row" src="images/image1.jpg">
+                                        </div>
+                                        <div class="row row-btn">
+                                            <button>Find Cinema</button>
+                                            <button>Book Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="col col-7 col-lg-7 col-md-7 col-sm-7 col-es-7 col-ss-7">
+                                        <div class="row row-1">
+                                            <h3>Assassin's Creed</h3>
+                                            <p>Lorem Ipsum Dolor et al abc def ghif</p>
+                                        </div>
+                                        <div class="row row-2">
+                                            
+                                            <a href=""><p>More...</p></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row film">
+                                    <div class="col col-5 col-lg-5 col-md-5 col-sm-5 col-es-5 col-ss-5">
+                                        <div class="row">
+                                            <img class="row" src="images/image2.jpg">
+                                        </div>
+                                        <div class="row row-btn">
+                                            <button>Find Cinema</button>
+                                            <button>Book Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="col col-7 col-lg-7 col-md-7 col-sm-7 col-es-7 col-ss-7">
+                                        <div class="row row-1">
+                                            <h3>The book of love</h3>
+                                            <p>La la la la la la la la la la la la la la la la</p>
+                                        </div>
+                                        <div class="row row-2">
+                                            
+                                            <a href=""><p>More...</p></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+                
+				<div id="user-goals" class="col col-article-2 col-lg-3 col-md-3 col-sm-6 col-es-12 col-ss-12">
+                    <div class="form row">
+                        <div class="goal row">
+                            <h1>Goal 1</h1>
+                        </div>
+                        <div class="goal row">
+                            <h1>Goal 2</h1>
+                        </div>
+                        <div class="goal row">
+                            <h1>Goal 3</h1>
+                        </div>
+                        <div class="goal row">
+                            <h1>Goal 4</h1>
+                        </div>
+                    </div>
+				</div>
+				<div id="find-cinema" class="col col-article-2 col-lg-3 col-md-3 col-sm-12 col-es-12 col-ss-12">
+                    <div class="form row">
+                        <div class="row row-block-title"><h2>Find Cinema</h2></div>
+                        <div class="row">
+                            <select>
+                                <option disabled selected>Select Cinema</option>
+                                <option>Cinema 1</option>
+                                <option>Cinema 2</option>
+                                <option>Cinema 3</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <p>or</p>
+                        </div>
+                        <div class="row">
+                            <input type="text" placeholder="Enter town or postcode" required="required">
+                        </div>
+                        <div class="row row-checkbox">
+                            <input type="checkbox" checked="checked"> <label>Remember my local cinema</label>
+                        </div>
+                        <div class="row">
+                            <button>Book Now!</button>
+                        </div>
+                    </div>
+				</div>
+			</article>
+		</section>
+		<footer class="row">
+            <div class="row">
+                <div class="col col-lg-6 col-md-7 col-sm-6 col-es-6 col-ss-12">
+                    <p>Copyright &copy; 2016, Sample Cinema Reservation. Powered by NIKKO ATUAN</p>
+                </div>
+                <div class="col col-lg-6 col-md-5 col-sm-6 col-es-6 col-ss-12">
+                    <a href="" id="social-right"><img src="images/instagram.png"></a>
+                    <a href=""><img src="images/twt.png"></a>
+                    <a href="" ><img src="images/fb.png"></a>
+                </div>
+            </div>
+		</footer>
+
+
+		<script type="text/javascript" src="scripts/script.js"></script>
+		<script type="text/javascript" src="scripts/team-owl-ajax.js"></script>
+		<script type="text/javascript">
+//			function loadAjax(text){
+//				document.getElementById("target-content").innerHTML = text;
+//				window.location.href = 'index.html#atlantic-bakery';
+//			}
+            startSlide();
+		</script>
+	</body>
+</html>

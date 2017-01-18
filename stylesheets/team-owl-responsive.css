@@ -1,0 +1,264 @@
+/************************************************** Large devices **************************************************/
+@media (min-width: 1200px){
+	.col-lg-1 { width: 8.33333% }
+	.col-lg-2 { width: 16.66667% }
+	.col-lg-3 { width: 25% }
+	.col-lg-4 { width: 33.33333% }
+	.col-lg-5 { width: 41.66667% }
+	.col-lg-6 { width: 50% }
+	.col-lg-7 { width: 58.33333% }
+	.col-lg-8 { width: 66.66667% }
+	.col-lg-9 { width: 75% }
+	.col-lg-10{ width: 83.33333% }
+	.col-lg-11{ width: 91.66667% }
+	.col-lg-12{ width: 100% }
+}
+
+/************************************************** Medium devices **************************************************/
+@media (min-width: 992px) and (max-width: 1199px){
+	.col-md-1  { width: 8.33333% }
+	.col-md-2  { width: 16.66667% }
+	.col-md-3  { width: 25% }
+	.col-md-4  { width: 33.33333% }
+	.col-md-5  { width: 41.66667% }
+	.col-md-6  { width: 50% }
+	.col-md-7  { width: 58.33333% }
+	.col-md-8  { width: 66.66667% }
+	.col-md-9  { width: 75% }
+	.col-md-10 { width: 83.33333% }
+	.col-md-11 { width: 91.66667% }
+	.col-md-12 { width: 100% }
+    
+    .col-book-now .form .row select, .col-book-now .form .row input, .col-book-now .form .row button, #find-cinema .form .row select, #find-cinema .form .row input, #find-cinema .form .row button{
+        width: 200px;
+        font-size: 12px;
+    }
+    
+    .article-2 .form .now-showing .film .row-btn button, .article-2 .form .coming-soon .film .row-btn button{
+        width: 46%;
+        padding: 2%;
+        margin: 0 2%;
+        font-size: 80%;
+    }
+    
+    .article-2 .form .now-showing .film .col-7 .row-2 .rating, .article-2 .form .coming-soon .film .col-7 .row-2 .rating{
+        right: 55%;
+    }
+}
+
+/************************************************** Small devices **************************************************/
+@media (min-width: 768px) and (max-width: 991px){
+	.col-sm-1  { width: 8.33333% }
+	.col-sm-2  { width: 16.66667% }
+	.col-sm-3  { width: 25% }
+	.col-sm-4  { width: 33.33333% }
+	.col-sm-5  { width: 41.66667% }
+	.col-sm-6  { width: 50% }
+	.col-sm-7  { width: 58.33333% }
+	.col-sm-8  { width: 66.66667% }
+	.col-sm-9  { width: 75% }
+	.col-sm-10 { width: 83.33333% }
+	.col-sm-11 { width: 91.66667% }
+	.col-sm-12 { width: 100% }
+
+    .col-book-now .form .row select, .col-book-now .form .row input, .col-book-now .form .row button, #find-cinema .form .row select, #find-cinema .form .row input, #find-cinema .form .row button{
+        width: 150px;
+        font-size: 12px;
+    }
+    
+    .article-2 .form .now-showing .film .row-btn button, .article-2 .form .coming-soon .film .row-btn button{
+        width: 46%;
+        padding: 1%;
+        margin: 0 2%;
+        font-size: 80%;
+    }
+    
+    .article-2 .form .now-showing .film .col-7 .row-2 .rating, .article-2 .form .coming-soon .film .col-7 .row-2 .rating{
+        top: 19%;
+        right: 50%;
+        font-size: 1.5em;
+    }
+    
+    .article-2 .form .now-showing .film .row-btn button, .article-2 .form .coming-soon .film .row-btn button{
+        width: 100%;
+        margin-bottom: 3px;
+    }
+    
+    .article-2 .form .now-showing .film, .article-2 .form .coming-soon .film{
+        height: 35vh;
+    }
+    
+    .article-2 .form .now-showing .film .col-7 .row-2 a, .article-2 .form .coming-soon .film .col-7 .row-2 a{
+        top: 35%;
+    }
+
+    .row-header .nav-menu{
+        width: 70%;
+    }
+    
+    .row-header img{
+        width: 160px;
+        height: 50px;
+        margin: 3%;
+    }
+    
+    .row-header .nav-menu a{
+        height: 30px;
+        padding: 3% 0 4% 0;
+    }
+    
+    #find-cinema .form .row-block-title{
+        margin-bottom: 10%;
+    }
+    
+    .row-header, .opacity{
+        height: 15vh;
+    }
+}
+
+
+/************************************************** Extra small devices **************************************************/
+@media (min-width: 480px) and (max-width: 767px){
+	.col-es-1  { width: 8.33333% }
+	.col-es-2  { width: 16.66667% }
+	.col-es-3  { width: 25% }
+	.col-es-4  { width: 33.33333% }
+	.col-es-5  { width: 41.66667% }
+	.col-es-6  { width: 50% }
+	.col-es-7  { width: 58.33333% }
+	.col-es-8  { width: 66.66667% }
+	.col-es-9  { width: 75% }
+	.col-es-10 { width: 83.33333% }
+	.col-es-11 { width: 91.66667% }
+	.col-es-12 { width: 100% }
+    
+    #burger{
+        display: block;
+    }
+    
+    .header-menu, .nav-menu{
+        display: none;
+    }
+    
+    header, header .opacity{
+        display: table;
+    }
+    
+    .row-header{
+        height: 10vh;
+    }
+    
+    #find-cinema .form .row-block-title{
+        margin-bottom: 10%;
+    }
+    
+    .article-2 .form .now-showing .film .row-btn button, .article-2 .form .coming-soon .film .row-btn button{
+        width: 46%;
+        padding: 1%;
+        margin: 0 2%;
+        font-size: 80%;
+    }
+    
+    .article-2 .form .now-showing .film .col-7 .row-2 .rating, .article-2 .form .coming-soon .film .col-7 .row-2 .rating{
+        top: 19%;
+        right: 50%;
+        font-size: 1.5em;
+    }
+    
+    .article-2 .form .now-showing .film .row-btn button, .article-2 .form .coming-soon .film .row-btn button{
+        width: 100%;
+        margin-bottom: 3px;
+    }
+    
+    .article-2 .form .now-showing .film, .article-2 .form .coming-soon .film{
+        height: 35vh;
+    }
+    
+    .article-2 .form .now-showing .film .col-7 .row-2 a, .article-2 .form .coming-soon .film .col-7 .row-2 a{
+        top: 35%;
+    }
+
+    
+}
+
+/************************************************** Super Extra small devices **************************************************/
+@media (max-width: 479px){
+	.col-ss-1  { width: 8.33333% }
+	.col-ss-2  { width: 16.66667% }
+	.col-ss-3  { width: 25% }
+	.col-ss-4  { width: 33.33333% }
+	.col-ss-5  { width: 41.66667% }
+	.col-ss-6  { width: 50% }
+	.col-ss-7  { width: 58.33333% }
+	.col-ss-8  { width: 66.66667% }
+	.col-ss-9  { width: 75% }
+	.col-ss-10 { width: 83.33333% }
+	.col-ss-11 { width: 91.66667% }
+	.col-ss-12 { width: 100% }
+
+    
+    #burger{
+        display: block;
+    }
+    
+    .header-menu, .nav-menu{
+        display: none;
+    }
+    
+    header, header .opacity{
+        display: table;
+    }
+    
+    .row-header{
+        height: 10vh;
+    }
+    
+    #find-cinema .form .row-block-title{
+        margin-bottom: 10%;
+    }
+    
+    .article-2 .form .now-showing .film .row-btn button, .article-2 .form .coming-soon .film .row-btn button{
+        width: 46%;
+        padding: 1%;
+        margin: 0 2%;
+        font-size: 80%;
+    }
+    
+    .article-2 .form .now-showing .film .col-7 .row-2 .rating, .article-2 .form .coming-soon .film .col-7 .row-2 .rating{
+        top: 19%;
+        right: 50%;
+        font-size: 1.5em;
+    }
+    
+    .article-2 .form .now-showing .film .row-btn button, .article-2 .form .coming-soon .film .row-btn button{
+        width: 100%;
+        margin-bottom: 3px;
+    }
+    
+    .article-2 .form .now-showing .film, .article-2 .form .coming-soon .film{
+        height: 35vh;
+    }
+    
+    .article-2 .form .now-showing .film .col-7 .row-2 a, .article-2 .form .coming-soon .film .col-7 .row-2 a{
+        top: 35%;
+    }
+    
+    footer{
+        text-align: center;
+        display: table;
+    }
+    
+    footer .col{
+        padding: 2%;
+    }
+    
+    footer #social-right{
+        margin-right: 28%;
+    }
+    
+}
+
+
+
+
+
